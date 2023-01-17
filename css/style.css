@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+}
+
+.homelayout {
+  width: 100%;
+  height: 600px;
+  
+}
+
+.homelayout h1 {
+  text-align: center;
+  color: aliceblue;
+  position: relative;
+  margin-top: 320px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.homelayout ul {
+  gap: 3rem;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 820px;
+  list-style: none;
+}
+.homelayout video {
+  position: absolute;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  margin-top: 60px;
+}
+.homelayout ul li a {
+  color: rgba(16, 15, 15, 0.896);
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+.homelayout img {
+  height: 100px;
+  width: 120px;
+  margin-top: -35px;
+  position: absolute;
+}
