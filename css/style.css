@@ -1,9 +1,14 @@
+.wholepage{
+  width: 95%;
+}
+
+
 .head-section {
   width: 100%;
-  height: 700px;
+  height: 80px;
 }
 .content h1 {
-  color: aliceblue;
+  color:black;
   margin: 250px;
   position: absolute;
   height: 400px;
@@ -13,55 +18,51 @@
 
 .container {
   width: 100%;
-  height: 700px;
+  height: 68px;
   background-color: black;
   display: flex;
-  position: absolute;
 }
 .backimage {
   width: 100%;
   position: absolute;
   height: 700px;
-  background-size: cover;
+ 
 }
 nav ul {
-  color: white;
+  color:white;
+font-weight: bold;
   list-style: none;
   display: flex;
   gap: 3rem;
   margin-left: 800px;
-  font-size: 5mm;
+  font-size: 6mm;
   position: fixed;
-  margin-top: 40px;
+  margin-top: 11px;
 }
 .button {
   width: 250px;
   margin-top: 450px;
   text-align: center;
   font-size: 35px;
-  color: rgba(251, 255, 0, 0.671);
+  color: black;
   font-weight: 400;
-  border: 5px solid rgba(251, 255, 0, 0.671);
+  border: 5px solid black;
   border-radius: 100px;
   cursor: pointer;
   transition: 1.5s;
-  position: absolute;
+ position: absolute;
   margin-left: 60px;
 }
 .button:hover{
-  color: aqua;
-  background-color: rgba(132, 134, 13, 0.671);
-  border: 5px solid rgba(132, 134, 13, 0.671);
-}
-
-.homelayout {
-  width: 100%;
-  height: 907px;
+  color:whitesmoke;
+  background-color: rgb(4, 208, 48);
+  border: 5px solid orange;
 }
 
 .second-layout {
   width: 100%;
   height: 500px;
+  margin-top: 840px;
 }
 .second-layout h2 {
   align-items: center;
@@ -82,3 +83,27 @@ nav ul {
   font-weight: bolder;
   margin-left: 327px;
 }
+.recipes{
+  width: 100%;
+  height: 600px;
+  margin-top: 100px;
+}
+.recipes h1{
+  font-size: 70px;
+  font-weight: bolder;
+  margin-left: 30%;
+}
+.recipes .list{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.recipes .list .box1{
+width: 30%;
+}
+.recipes .list .box2{
+  width: 30%;
+  }
+  .recipes .list .box3{
+    width: 30%;
+    }
