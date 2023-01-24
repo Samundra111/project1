@@ -1,0 +1,84 @@
+.sign-up{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    }
+    .sign-up input{
+      height: 30px;
+      width: 200px;
+      float: right;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+    main{
+      width: 50%;
+      margin: auto;
+      height: 600px;
+     
+    }
+    .signup-box{
+      height: 400px;
+      margin-top: 100px;
+      background-color: black;
+      width: 100%;
+    }
+    .signup-box h1{
+      margin-left: 20px ;
+      margin-top: 20px;
+    }
+    .form-group1{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+    .form-control1{
+        width: 45%;
+        height: 40px;
+
+    }
+    .form-control2{
+        width: 95%;
+        height: 40px;
+    }
+    .form-group1 p{
+        color: white;
+        text-align: left;
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 5px;
+        margin-block-end: 0px;
+    }
+.birthday{
+    width: 90%;
+    margin: auto;
+
+}
+.select{
+    width: 32%;
+    height: 30px;
+}
+.form-group2{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex ;
+    justify-content: space-around;
+}
+.gender-grp{
+    width: 30%;
+    height: 30px;
+    background-color: antiquewhite;
+    text-align: center;
+    line-height: 25px;
+}
+.signup-box p{
+    font-size: larger;
+    margin-left: 20px;
+    margin-block-end: 0px;
+    margin-top: 0px;
+    color: white;
+}
+    
+    
+    
