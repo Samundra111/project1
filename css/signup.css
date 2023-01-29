@@ -1,9 +1,28 @@
-header .sign-up{
+header .sign-up {
   width: 100%;
   height: 80px;
   background-color: black;
 }
-
+.signbut {
+  margin-left: 850px;
+  height: 43px;
+  margin-top: 17px;
+  width: 150px;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  font-weight: 400;
+  border: 5px solid black;
+  border-radius: 70px;
+  cursor: pointer;
+  transition: 1.5s;
+  position: absolute;
+}
+.signbut:hover {
+  color: whitesmoke;
+  background-color: rgb(8, 27, 235);
+  border: 5px solid rgb(250, 249, 247);
+}
 .sign-up input {
   height: 30px;
   width: 200px;
