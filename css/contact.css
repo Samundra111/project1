@@ -124,7 +124,7 @@ main .image{
 }
 .button:hover {
   color: whitesmoke;
-  background-color: rgb(23, 47, 142);
+  background-color: rgb(80, 80, 82);
   border: 5px solid rgb(250, 249, 247);
   
 }
