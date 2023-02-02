@@ -16,7 +16,7 @@ img {
   width: 100%;
   height: 80px;
 }
-.backimage .content{
+.backimage .content {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -47,29 +47,29 @@ img {
 }
 nav ul {
   color: white;
-    font-weight: bold;
-    list-style: none;
-    display: flex;
-    font-size: 6mm;
-    margin-top: 23px;
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  font-size: 6mm;
+  margin-top: 23px;
 }
 nav ul li a {
   text-decoration: none;
-    color: white;
-    padding: 1rem 2rem;
+  color: white;
+  padding: 1rem 2rem;
 }
 .button {
   width: fit-content;
-    padding: 0 2rem;
-    text-align: center;
-    font-size: 35px;
-    color: black;
-    font-weight: 400;
-    border: 5px solid black;
-    border-radius: 100px;
-    cursor: pointer;
-    transform: translateY(250px);
-    transition: 1.5s;
+  padding: 0 2rem;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+  font-weight: 400;
+  border: 5px solid black;
+  border-radius: 100px;
+  cursor: pointer;
+  transform: translateY(250px);
+  transition: 1.5s;
 }
 .button:hover {
   color: whitesmoke;
@@ -82,8 +82,8 @@ nav ul li a {
 }
 .second-layout h2 {
   align-items: center;
-    font-size: 1.6rem;
-    font-weight: bolder;
+  font-size: 1.6rem;
+  font-weight: bolder;
 }
 
 .second-layout .image {
@@ -110,7 +110,7 @@ nav ul li a {
   margin-top: 4rem;
 }
 .recipes h1 {
-  font-size: 70px;
+  font-size: 4rem;
   font-weight: bolder;
   margin-left: 30%;
   padding: 2rem;
@@ -123,48 +123,54 @@ nav ul li a {
 }
 .recipes .list .box {
   width: 32%;
-   height: 300px;
+  height: 300px;
 }
 .box img {
   width: 100%;
   height: 100%;
   max-height: 380px;
 }
-.box img:hover{
-  height:105%;
+.box img:hover {
+  height: 105%;
 }
 .Box {
   background-color: whitesmoke;
-  padding: 1rem;
 }
 .Box .content1 {
   display: flex;
-    width: 100%;
-    position: relative;
-    justify-content: space-around;
+  width: 100%;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
 }
 .Box .content1 h1 {
   color: black;
-    font-weight: bolder;
-    font-size: 40px;
-    width: 100%;
+  font-weight: bolder;
+  font-size: 40px;
+  width: 100%;
+  padding: 1rem;
 }
-
+.content1 .cont {
+  align-items: center;
+  padding-bottom: 8rem;
+}
 .Box img {
-    display: block;
-    max-height: 380px;
+  display: block;
+  max-height: 400px;
 }
 
 .Box p {
   width: 100%;
   color: black;
   font-size: 20px;
+  padding: 1rem;
 }
 .restaurents h1 {
-  margin-top: 5rem;
+  margin-top: 12rem;
   font-size: 4rem;
   font-weight: bolder;
   text-align: center;
+  padding: 2rem;
 }
 .foot {
   width: 100%;
@@ -216,51 +222,50 @@ nav ul li a {
   align-items: center;
 }
 
-@media screen and (max-width: 991px){
+@media screen and (max-width: 991px) {
   .Box .content1 {
-      flex-direction: column;
+    flex-direction: column;
   }
 }
 
-@media screen and (max-width: 730px){
+@media screen and (max-width: 730px) {
   .second-layout .image {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .recipes .list {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .recipes .list .box {
-      width: initial;
-      margin: 2rem 0;
+    width: initial;
+    margin: 2rem 0;
   }
 }
 
-@media screen and (max-width: 655px){
+@media screen and (max-width: 655px) {
   .burger {
-      display: flex;
+    display: flex;
   }
 
   nav ul {
-      display: none;
+    display: none;
   }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px) {
   .foot .image-container {
-      display: none;
+    display: none;
   }
   .listt ul li a {
-      padding: 1rem;
+    padding: 1rem;
   }
 
   .button {
-      transform: translateY(350px)
+    transform: translateY(350px);
   }
 
   .recipes h1 {
-      font-size: 3rem;
+    font-size: 3rem;
   }
 }
-  
