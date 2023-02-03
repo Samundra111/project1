@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
 }
-
 img {
   object-fit: cover;
 }
@@ -46,12 +45,14 @@ img {
   position: relative;
 }
 nav ul {
-  color: white;
   font-weight: bold;
   list-style: none;
   display: flex;
   font-size: 6mm;
-  margin-top: 23px;
+  z-index: 1;
+}
+nav ul li{
+  line-height: 68px;
 }
 nav ul li a {
   text-decoration: none;
@@ -184,7 +185,6 @@ nav ul li a {
 .listt ul {
   list-style: none;
   display: flex;
-  list-style: none;
 }
 .listt li {
   color: white;
@@ -268,4 +268,10 @@ nav ul li a {
   .recipes h1 {
     font-size: 3rem;
   }
+  img {
+    object-fit: cover;
+    width: 100%;
+}
+
+
 }
